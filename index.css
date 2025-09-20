@@ -39,4 +39,5 @@ gap: 10px;
 }
 .username {
     font-size: 2em;
+    clear: auto;
 }
