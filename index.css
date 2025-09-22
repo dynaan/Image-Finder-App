@@ -18,7 +18,9 @@ body {
 
 }
 .singleImg {
+    padding: 20px;
     background-color:rebeccapurple ;
+     border-radius: 10px;
 }
 .firstDiv {
 display: flex;
@@ -27,6 +29,7 @@ gap: 10px;
 
 }
 .allImg {
+    margin-top: 30px;
     width: 70%; 
     display: grid;
    grid-template-columns: repeat(3,1fr);
@@ -40,4 +43,20 @@ gap: 10px;
 .username {
     font-size: 2em;
     clear: auto;
+}
+.secondDiv {
+     
+     margin-top: 20px;
+    
+}
+.mainImg {
+    border-radius: 10px;
+    width:400px;
+    height:300px;
+    object-fit: cover;
+    
+}
+.imgDes {
+    margin-top : 10px;
+    font-size: 2.5rem;
 }
